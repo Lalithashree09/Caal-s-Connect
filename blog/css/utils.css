@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+:root {
+    --main-bg-color: rgb(255, 255, 255);
+    --font1: 'Rubik Gemstones', cursive;
+    --font2: 'Dancing Script', cursive;
+    --font3: 'EB Garamond', serif;
+
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px darkmagenta;
+    border-radius: 6px;
+    font-family: var(--font2);
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    color: brown;
+    background: var(--main-bg-color);
+
+
+}
+
+.form-input {
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px rgb(163, 0, 163);
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font2);
+}
